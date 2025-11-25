@@ -1,0 +1,17 @@
+[project]
+name = "movie-planer-mcp-server"
+version = "0.1.0"
+description = "A sophisticated MCP server for movie/series recommendations, tracking, and scheduling."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp",
+    "httpx",
+    "python-dotenv",
+    "pydantic",
+    "chromadb", 
+    "google-api-python-client",
+    "google-auth-httplib2",
+    "google-auth-oauthlib",
+    "sqlite-utils"
+]
